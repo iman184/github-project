@@ -1,0 +1,21 @@
+.navbar-expand-sm{
+    background-color: white;
+    box-shadow: 1px 1.5px 2px grey;
+  }
+  .navbar{
+      padding-left: 80px;
+  }
+  .navbar-brand{
+      font-size: 30px;
+  }
+  .title{
+      font-size: 24px;
+  }
+  .title-color{
+      color: #dc3545;
+  }
+  .navbar-nav{
+  padding-left: 1150px;
+  font-size: 16px;
+  }
+  

@@ -1,0 +1,30 @@
+body{
+    height: 100vh;
+    
+      }
+    .first-div{
+        padding-top: 190px;
+    }
+    .second-div{
+        padding-top: 20px;
+    }
+    #header-welcome {  
+      background-image: url(../images/backImage.png); /* The image used */
+      background-color: #cccccc; /* Used if the image is unavailable */
+      height: 100vh; /* You must set a specified height */
+      background-position: center; /* Center the image */
+      background-repeat: no-repeat; /* Do not repeat the image */
+      background-size: cover; /* Resize the background image to cover the entire container */
+    }
+    .span{
+        color: #C53F3F;
+    }
+    .btn-color{
+        background-color:#C53F3F;
+        color: white;
+        
+    }
+    .parag-padd{
+        padding-top: 20px;
+        padding-bottom: 5px;
+    }
