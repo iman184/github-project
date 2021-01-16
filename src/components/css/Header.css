@@ -1,7 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 body{
     height: 100vh;
     
       }
+     .logo-size{
+       font-size: 30px;
+       font-family: 'Ubuntu', sans-serif;
+     }
+      .title{
+          padding-left: 750px;
+          padding-top: 15px;
+      }
+      .title-color{
+          color: #dc3545; 
+      }
+    
     .first-div{
         padding-top: 190px;
     }

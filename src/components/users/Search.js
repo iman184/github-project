@@ -1,8 +1,7 @@
-import React , {useState, useContext} from 'react'
-
+import React , {useState, useContext ,Fragment} from 'react'
 import GithubContext from '../../context/github/githubContext'
 import AlertContext from '../../context/alert/alertContext'
- 
+
 const Search =()=> {
   const githubContext = useContext(GithubContext)
   const alertContext = useContext(AlertContext)
@@ -22,6 +21,8 @@ const Search =()=> {
    }
     
         return (
+            <Fragment>
+             
             <div>
               <form onSubmit={onSubmit} className='form'>
                   <input
@@ -44,6 +45,7 @@ const Search =()=> {
                 )}
                 
             </div>
+            </Fragment>
         )
     }
 
