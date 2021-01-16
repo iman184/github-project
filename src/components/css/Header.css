@@ -1,43 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 body{
-    height: 100vh;
-    
-      }
-     .logo-size{
-       font-size: 30px;
-       font-family: 'Ubuntu', sans-serif;
+    height: 100%;
+    }
+     .title{
+         text-align: center;
+         padding-top: 20px;
+         font-size: 30px;
      }
-      .title{
-          padding-left: 750px;
-          padding-top: 15px;
-      }
-      .title-color{
-          color: #dc3545; 
-      }
     
-    .first-div{
-        padding-top: 190px;
-    }
-    .second-div{
-        padding-top: 20px;
-    }
-    #header-welcome {  
-      background-image: url(../images/backImage.png); /* The image used */
-      background-color: #cccccc; /* Used if the image is unavailable */
-      height: 100vh; /* You must set a specified height */
-      background-position: center; /* Center the image */
-      background-repeat: no-repeat; /* Do not repeat the image */
-      background-size: cover; /* Resize the background image to cover the entire container */
-    }
-    .span{
-        color: #C53F3F;
-    }
-    .btn-color{
-        background-color:#C53F3F;
-        color: white;
-        
-    }
-    .parag-padd{
-        padding-top: 20px;
-        padding-bottom: 5px;
-    }
+.header-welcome {  
+  background-image: url("../../img/Sans\ titre-5.png"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 92vh; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.span{
+    color: #F27289;
+}
+.btn-color{
+    background-color:#F27289;
+    color: white;
+    
+}
+.btn-color:hover{
+    background-color:#F27289;
+    color: white;
+    
+}
+.parag-padd{
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+.content{
+    position:  relative;
+    
+}
+.first-div{
+    padding-top: 170px;
+}
+.second-div{
+    padding-top: 70px;
+}
