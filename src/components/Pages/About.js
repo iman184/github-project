@@ -1,5 +1,12 @@
 import React, {Fragment} from 'react'
+import { Link } from 'react-router-dom'
 import '../css/About.css';
+import image from '../../img/Analytics-cuate.png'
+import image1 from '../../img/group.svg'
+import image2 from '../../img/user.svg'
+import image3 from '../../img/video.svg'
+import image4 from '../../img/what we are.svg'
+import image5 from '../../img/Website Creator-rafiki.svg'
 const About = () => {
     return (
         <Fragment>
@@ -17,18 +24,17 @@ const About = () => {
                 <div className="collapse navbar-collapse" id="navbarText">
                   <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                     <li className="nav-item">
-                      <a className="nav-link active" aria-current="page" href="#">Home</a>
+                      <Link to='/' className="nav-link active" aria-current="page" href="#">Home</Link>
                     </li>
                     <li className="nav-item">
-                      <a className="nav-link active" href="#">Search</a>
+                      <Link to='/searches' className="nav-link active" href="#">Search</Link>
                     </li>
                     <li className="nav-item">
-                      <a className="nav-link active" href="#">About</a>
+                      <Link to='/about' className="nav-link active" href="#">About</Link>
                     </li>
+                   
                   </ul>
-                  <div className="menubtn">
-                    <button>Helpline</button>
-                  </div>
+                 
                 </div>
               </div>
             </nav></div>
@@ -48,7 +54,7 @@ const About = () => {
               <a href className="btn-rounded">Discover more</a>
             </div>
             <div className="col-sm right-sec">
-              <img src="./img//Analytics-cuate.png" className="img-fluid " alt="" /> 
+              <img src={image} className="img-fluid " alt="" /> 
             </div>
           </div>
         </header>
@@ -63,7 +69,7 @@ const About = () => {
                 <div className="d-flex justify-content-center">
                   <div className="card" style={{width: '18rem'}}>
                     <div className="card-body">
-                      <img src="./img/group.svg" className="img-sec img-fluid" height="200px" />
+                      <img src={image1} className="img-sec img-fluid" height="200px" />
                       <div className="my-4">  
                         <h5 className="card-title">Users</h5>
                         <h6 className="card-subtitle mb-2 text-muted">Search and find them</h6>
@@ -77,7 +83,7 @@ const About = () => {
                 <div className="d-flex justify-content-center">
                   <div className="card" style={{width: '18rem'}}>
                     <div className="card-body">
-                      <img src="./img/user.svg" className="img-sec img-fluid" height="175px" />
+                      <img src={image2} className="img-sec img-fluid" height="175px" />
                       <div className="my-2">
                         <h5 className="card-title top-padd1">Profiles</h5>
                         <h6 className="card-subtitle mb-2 text-muted">See their profiles</h6>
@@ -91,7 +97,7 @@ const About = () => {
                 <div className="d-flex justify-content-center">
                   <div className="card" style={{width: '18rem'}}>
                     <div className="card-body">
-                      <img src="./img/video.svg" className="img-sec img-fluid" height="160px" />
+                      <img src={image3} className="img-sec img-fluid" height="160px" />
                       <div className="my-2">
                         <h5 className="card-title top-padd">Repository</h5>
                         <h6 className="card-subtitle mb-2 text-muted">Find their repository</h6>
@@ -109,7 +115,7 @@ const About = () => {
           <div className="container">
             <div className="row">
               <div className="col-sm">
-                <img src="./img/what we are.svg" className="img-style" alt="" /> 
+                <img src={image4} className="img-style" alt="" /> 
               </div>
               <div className="col-sm">
                 <div className="sec2-title">
@@ -151,7 +157,7 @@ const About = () => {
                 <a href className="btn-sec3 btn-1 padd-left"><i className="fab fa-bootstrap font-wes" /> Bootstrap</a>
               </div>
               <div className="col-sm">
-                <img src="./img/Website Creator-rafiki.svg" className="img-style" alt="" /> 
+                <img src={image5} className="img-style" alt="" /> 
               </div>
             </div>
           </div>
