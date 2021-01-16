@@ -1,22 +1,83 @@
-.navbar-expand-sm{
-    background-color: white;
-    box-shadow: 1px 1.5px 2px grey;
-  }
-  .navbar{
-      padding-left: 80px;
-  }
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    box-sizing: border-box;
+    
+}
+/*navbar*/
+.navbar{
+    padding-left: 90px;
+    padding-top: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    }
   .navbar-brand{
-      font-size: 30px;
-  }
-  .title{
-      font-size: 24px;
-  }
-  .title-color{
-      color: #dc3545;
+    font-size: 30px;
   }
   .navbar-nav{
-  padding-left: 1150px;
-  font-size: 16px;
+   padding-left: 600px;
+    font-size: 16px;
   }
+    
+  li{
+      padding-left: 30px;
+  }
+   
+  .color-logo{
+      color: #F28A80;
+      padding-left: 5px;
+      font-family: 'Josefin Sans', sans-serif;
+  }
+  .center-logo{
+      padding-left: 140px;
+  }
+  .menubtn{
+      margin-right: 60px;
+  }
+  .mainheader button{
+      padding: 10px 45px;
+      text-align: center;
+      font-size: 14px;
+      color: #fff;
+      border: none;
+      background-image:linear-gradient(to right, #F28A80,#63B6BF);
+      border-radius: 10px;
+  }
+  
+  .mainheader button:hover{
+      color: white;
+      background-image:linear-gradient(to right, #63B6BF,#F28A80);
+  }
+  
+
+
+.title-color{
+    color:#F27289;
+    
+}
+.title{
+   text-align: center;
+   padding-top: 20px;
+}
+.center-logo{
+    padding-left: 20px;
+}
+.nav-item{
+    padding-left: 60px;
+}
+.navbar-nav{
+    padding-left: 800px;
+}
+.color-logo{
+    color: #024959;
+    padding-left: 10px;
+}
+.search{
+    background-image: url('../../img/search.png');
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
 
 
