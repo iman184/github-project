@@ -1,12 +1,15 @@
 import React from 'react'
 import PropTypes from 'prop-types';
-
+import '../css/Profile.css'
 const RepoItem = ({ repo }) => {
     return (
-        <div className="card">
-          <h3>
-        <a href={repo.html_url}>{repo.name}</a>
-        </h3>  
+        <div className="col-sm-12">
+              <div className="card">
+                <div className="card-body">
+              <a href={repo.html_url}>{repo.name}</a>
+        </div>
+              </div>
+              <br />
             
         </div>
     )

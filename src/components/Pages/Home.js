@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 const Home = () =>  (
         <Fragment>
             <div>
-        <h3 className="title">Git<span className="span"><b>Men</b></span></h3>
+       <h2 className='spans'>Git<span className="span">Men</span></h2>
         <header className="header-welcome content">
           <div className="container ">
             <div className="row align-items-start ">
