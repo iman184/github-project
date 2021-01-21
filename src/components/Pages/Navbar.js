@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 import '../css/Searches.css'
 const Navbar = () =>  (
         <Fragment>
-           
            <nav className="navbar navbar-expand-lg navbar-light ">
           <div className="container-fluid">
             <div className="center-logo"> <a className="navbar-brand fab fa-github" href="#"><b className="color-logo">Git</b>Men</a></div>
@@ -25,7 +24,6 @@ const Navbar = () =>  (
             </div>
           </div>
         </nav>
-
 </Fragment>
 )
 export default Navbar
