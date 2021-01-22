@@ -30,7 +30,7 @@ const Search =()=> {
                 <div>
                 {/* Search */}
                 {/*Seaarch photo and input*/}  
-                <div className="container">
+                <div className=" container add">
                     <div className="row">
                     <div className="col logo-search">
                         <img src={imgSearch} width="550px" />
