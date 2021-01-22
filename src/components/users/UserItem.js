@@ -1,9 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import PropTypes from 'prop-types'
+import '../css/Searches.css'
 const UserItem = ({user:{login, avatar_url,html_url}}) => {
     return (
-       <div className="containers">
+       <div className="container"> 
         <div className="row pt-5">
           <div className="col-sm">
             <div className="column">

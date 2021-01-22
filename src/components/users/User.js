@@ -12,17 +12,13 @@ const User = ({match}) => {
     const githubContext = useContext(GithubContext);
     
     const { getUser, loading, repos,user, getUserRepos } = githubContext;
-
+    
     useEffect(()=>{
         getUser(match.params.login)
         getUserRepos(match.params.login)
         // eslint-disable-next-line
     },[])
   
-  
-  
-     
-
         const{ 
             name, 
             avatar_url,
@@ -43,7 +39,7 @@ const User = ({match}) => {
     return <Fragment>
          {/* Pofile user */}
       {/* back to search and available*/}
-      <section className="background-sec">
+      <section className='background'>
         <div className="container">
           <div className="row">
             <div className="col-sm styling">
@@ -61,7 +57,7 @@ const User = ({match}) => {
         <div className="container">
           <div className="row style-grid ">
             <div className="col-sm">
-              <a to="/" className="padding-a1 btn-light"><img src={repository} width="22%" /><b className="padding-a2">{followers}</b></a><p><small className="move"> Followers</small></p> 
+              <a to="/" className="padding-a1 btn-light"><img src={repository} width="10%" /><b className="padding-a2"> { followers } </b></a><p><small className="move"> Followers</small></p> 
             </div>
             <div className="col-sm">
               <a to="/" className="padding-a1 btn-light"><i className="fas fa-user-friends mod-img" /><b className="padding-a2">{following}</b></a><p><small className="move">Following</small></p>
@@ -93,11 +89,11 @@ const User = ({match}) => {
                 </div>
               </div>
             </div>
-            <div className='coll-sm-6'>
-                <Repos repos={repos} />
-                </div>
+            {/*repo*/}
+            <div className="col-sm-9">
+                <h5><Repos  repos={repos} /></h5>
+            </div>
                 
-             
             </div>
           </div>
           
