@@ -138,17 +138,20 @@ body {
  
   .container {
     padding-top: 50px;
-    margin: 0 auto;
-    width: 100%;
-    text-align: center;
   }
+ .add{
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+ }
+  
 
 /*card*/
 .column{
   width: 60%;
   float: left;
   padding: 0 0px;
-  margin-left: 80px;
+  margin-left: 70px;
   margin-bottom: 30px;
 }
 .row::after{
