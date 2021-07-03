@@ -1,5 +1,5 @@
 # Demo
-github-search-project1.netlify.app
+https://github-search-project1.netlify.app
 
 # Getting Started with Create React App
 
